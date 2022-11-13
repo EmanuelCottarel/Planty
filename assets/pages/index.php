@@ -24,9 +24,19 @@
         
         </div>
         <div class="banner__arrow">
-            <img src="./assets/images/fleche_down.png" alt="">
+            <img src="../images/fleche_down.png" alt="">
         </div>
     </div>
     </header>
+
+    <main>
+        <article class="presentation">
+            <div class="presentation__cards">
+                <div class="presentation__cards--card"></div>
+            </div>
+
+        </article>
+    </main>
+
 </body>
 </html>
