@@ -1,6 +1,8 @@
-$primary-color: #355844;
+$primaryColor: #355844;
 $secondaryColor: #fff;
+$thirdColor: rgb(199, 96, 0);
 
+@import url(./navbar.css);
 
 * {
     box-sizing: border-box;
@@ -14,19 +16,7 @@ body {
 
 
 
-nav {
-    height: 80px;
-    width: 100%;
-}
 
-.nav {
-    &__logo {
-
-        img {
-            height: 80px;
-        }
-    }
-}
 
 .banner {
     width: 100%;
@@ -59,12 +49,21 @@ nav {
             border: 1px solid $secondaryColor;
             color: $secondaryColor;
             padding: 20px;
+
+            &:nth-child(2){
+                background-color: #ffffff50;
+                color: $secondaryColor;
+               
+            }
+
+            &:nth-child(3){
+                background-color: $thirdColor;
+            }
         }
     }
 
     &__arrow {
         display: flex;
-
         justify-self: flex-end;
     }
 

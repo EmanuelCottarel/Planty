@@ -1,3 +1,4 @@
+@import url(./navbar.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,15 +6,6 @@
 
 body {
   width: 100%;
-}
-
-nav {
-  height: 80px;
-  width: 100%;
-}
-
-.nav__logo img {
-  height: 80px;
 }
 
 .banner {
@@ -45,6 +37,13 @@ nav {
   border: 1px solid #fff;
   color: #fff;
   padding: 20px;
+}
+.banner__title a:nth-child(2) {
+  background-color: rgba(255, 255, 255, 0.3137254902);
+  color: #fff;
+}
+.banner__title a:nth-child(3) {
+  background-color: rgb(199, 96, 0);
 }
 .banner__arrow {
   display: flex;

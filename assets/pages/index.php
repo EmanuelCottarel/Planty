@@ -7,27 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Planty vous permet de suivre l'évolution de vos plantes favorites">
     
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
     <header>
-    <nav>
-        <div class="nav__logo">
-            <img src="./assets/images/LogoTextSm.jpg" alt="">
-
-        </div>
-
-        <div class="nav__menu">
-
-        </div>
-    </nav>
+    <?php
+    include('navbar.php');
+    ?>
 
     <div class="banner">
         <div class="banner__title">
             <h1>Planty</h1>
-            <a href="">Se connecter</a>
             <a href="">S'inscrire</a>
+            <a href="">Se connecter</a>
         
         </div>
         <div class="banner__arrow">
